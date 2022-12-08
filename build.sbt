@@ -7,7 +7,6 @@ lazy val scala32 = "3.2.1"
 
 lazy val supportedScalaVersions = List(scala32, scala213, scala212, scala211)
 
-ThisBuild / organization := "com.felstar"
 ThisBuild / scalaVersion := scala213
 
 lazy val root = (project in file("."))
