@@ -6,6 +6,14 @@ This is framework-agnostic, and you will have to supply your own encoders/decode
 
 This is an **unofficial library** and is **community-maintained**.
 
+You can either just copy the source files to your repo or use as a library
+[![](https://jitpack.io/v/fancellu/openai-scala-models.svg)](https://jitpack.io/#fancellu/openai-scala-models)
+
+You can see an example usage of these models here
+[OpenAICompletionApp](https://github.com/fancellu/zio-restful-webservice/blob/main/src/main/scala/com/felstar/restfulzio/openai/OpenAICompletionApp.scala)
+
+## OpenAI docs
+
 https://beta.openai.com/docs/api-reference
 
 Root for all API calls ```https://api.openai.com/v1```
