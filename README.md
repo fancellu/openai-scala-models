@@ -9,8 +9,12 @@ This is an **unofficial library** and is **community-maintained**.
 You can either just copy the source files to your repo or use as a library
 [![](https://jitpack.io/v/fancellu/openai-scala-models.svg)](https://jitpack.io/#fancellu/openai-scala-models)
 
-You can see an example usage of these models here
+You can see example usage of these models here, with ZIO
 [OpenAICompletionApp](https://github.com/fancellu/zio-restful-webservice/blob/main/src/main/scala/com/felstar/restfulzio/openai/OpenAICompletionApp.scala)
+
+Also here with http4s
+
+https://github.com/fancellu/http4s-circe-example/blob/master/src/main/scala/MyMain.scala
 
 ## OpenAI docs
 
