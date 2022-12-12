@@ -11,11 +11,11 @@ package com.felstar.openai.moderation
  */
 case class CreateModerationResponseCategoryScores (
   hate: BigDecimal,
-  hatethreatening: BigDecimal,
+  `hate/threatening`: BigDecimal,
   self_harm: BigDecimal,
   sexual: BigDecimal,
-  sexualminors: BigDecimal,
+  `sexual/minors`: BigDecimal,
   violence: BigDecimal,
-  violencegraphic: BigDecimal
+  `violence/graphic`: BigDecimal
 )
 

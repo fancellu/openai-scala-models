@@ -11,11 +11,11 @@ package com.felstar.openai.moderation
  */
 case class CreateModerationResponseCategories (
   hate: Boolean,
-  hatethreatening: Boolean,
+  `hate/threatening`: Boolean,
   self_harm: Boolean,
   sexual: Boolean,
-  sexualminors: Boolean,
+  `sexual/minors`: Boolean,
   violence: Boolean,
-  violencegraphic: Boolean
+  `violence/graphic`: Boolean
 )
 
